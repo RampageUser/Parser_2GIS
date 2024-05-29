@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "parser"
+version = "0.1.0"
+description = ""
+authors = ["Artur Volnov <fristail95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+selenium = "^4.21.0"
+requests = "^2.32.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
